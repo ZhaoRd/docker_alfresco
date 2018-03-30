@@ -9,8 +9,8 @@ services:
         restart: always
         ports:
             - 58080:8080
-        volumes:
-            - ./content/:/content/ #:ro  # 配置文件
-            - ./data/:/alfresco/alf_data/ #:ro # 数据存储
-        environment:
-            CONTENT_STORE: /content
+        #volumes:
+        #    - ./content/:/content/ #:ro  # 配置文件
+        #    - ./data/:/alfresco/alf_data/ #:ro # 数据存储
+        #environment:
+        #    CONTENT_STORE: /content
